@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const root = path.resolve(__dirname, '..')
-const publicDir = path.join(root, 'docs', '.vitepress', 'public', 'rules')
+const publicDir = path.join(root, 'docs', 'public', 'rules')
 
 const dirs = ['link', 'text']
 
