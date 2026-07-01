@@ -4,7 +4,7 @@
   "category": "link",
   "enabled": true,
   "actionMode": "direct_open",
-  "matchRegex": ".*e\\.tb\\.cn.*",
+  "matchRegex": ".tb\\.cn.*",
   "parameterRegex": ".*(.+).*",
   "target": {
     "type": "url",
