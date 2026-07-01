@@ -5,7 +5,7 @@
   "matchRegex": ".*[/.]3\\.cn.*|.*[/.]jd\\.com.*",
   "target": {
     "type": "url",
-    "template": "openapp.jdmobile://virtual?params={'category':'jump','des':'m','url':'{raw:input}'}",
+    "template": "openapp.jdmobile://virtual?params={'category':'jump','des':'m','url':'${url:input}'}",
     "packageName": "com.jingdong.app.mall"
   }
 }
