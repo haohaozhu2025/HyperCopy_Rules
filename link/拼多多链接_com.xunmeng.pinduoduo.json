@@ -1,6 +1,6 @@
 {
   "id": "pinduoduo_goods_parse_open",
-  "name": "拼多多链接打开",
+  "name": "拼多多链接",
   "category": "link",
   "enabled": true,
   "actionMode": "direct_open",
