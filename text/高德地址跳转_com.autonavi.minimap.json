@@ -1,5 +1,5 @@
 {
-  "id": "default-address-rule",
+  "id": "androidamap_adress",
   "name": "高德地图地址跳转",
   "category": "address",
   "enabled": true,

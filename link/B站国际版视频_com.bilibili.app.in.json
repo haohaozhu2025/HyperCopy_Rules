@@ -1,5 +1,5 @@
 {
-  "id": "bilibili_video_parse_open",
+  "id": "bilibili_video_in_parse_open",
   "name": "B站视频打开",
   "category": "link",
   "enabled": true,
