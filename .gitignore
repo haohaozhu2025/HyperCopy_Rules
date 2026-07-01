@@ -1,1 +1,6 @@
 /.idea
+/.vitepress
+/docs/.vitepress/cache
+/docs/.vitepress/dist
+/node_modules
+/docs/.vitepress/public
