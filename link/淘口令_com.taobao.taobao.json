@@ -1,0 +1,22 @@
+{
+  "name": "淘口令",
+  "category": "link",
+  "enabled": true,
+  "actionMode": "direct_open",
+  "matchRegex": "[_\\$￥₳€£][a-zA-Z0-9]+[_\\$￥₳€£]",
+  "parameterRegex": ".*(.+).*",
+  "triggerRegexes": [
+    "[_\\$￥₳€£][a-zA-Z0-9]+[_\\$￥₳€£]"
+  ],
+  "extractionRegexes": [
+    ".*(.+).*"
+  ],
+  "parseAfterRedirect": false,
+  "target": {
+    "type": "url",
+    "template": "",
+    "packageName": "com.taobao.taobao",
+    "action": "android.intent.action.VIEW"
+  },
+  "createdAt": 1783668225675
+}
