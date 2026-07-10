@@ -1,0 +1,21 @@
+{
+  "name": "浏览器",
+  "category": "link",
+  "enabled": true,
+  "actionMode": "direct_open",
+  "matchRegex": "^https?:\/\/.*",
+  "parameterRegex": ".*",
+  "triggerRegexes": [
+    "^https?:\/\/.*"
+  ],
+  "extractionRegexes": [
+    ".*"
+  ],
+  "parseAfterRedirect": false,
+  "target": {
+    "type": "url",
+    "template": "${url:input}",
+    "action": "android.intent.action.VIEW"
+  },
+  "createdAt": 1752200000000
+}
