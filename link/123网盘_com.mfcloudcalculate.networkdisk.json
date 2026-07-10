@@ -5,7 +5,7 @@
   "enabled": true,
   "actionMode": "direct_open",
   "matchRegex": "123pan\\.com|123pan\\.cn|www\\.123\\d{3}\\.com",
-  "parameterRegex": "\/s\/([^#&?.]*)",
+  "parameterRegex": "\/123pan\/([^#&?.]*)",
   "triggerRegexes": [
     "123pan\\.com|123pan\\.cn|www\\.123\\d{3}\\.com"
   ],
